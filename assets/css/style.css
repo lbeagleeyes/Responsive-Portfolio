@@ -91,7 +91,7 @@ h3 {
   background: #4aaaa5;
 }
 
-
+/* 
 @media only screen and (max-width: 768px) {
   #logo { 
     font-size: 60%;
@@ -99,19 +99,18 @@ h3 {
   line-height: 70px;
   }
 }
-
-@media only screen and (max-width: 640pxpx) {
-  #logo { 
-    font-size: 50%;
-    font-weight: 300;
-  line-height: 50px;
+*/
+@media only screen and (max-width: 640px) {
+  #masthead { 
+    position: static;
+    margin-bottom: 10px;
   }
-}
+} 
 
 nav {
   float: right;
   margin-top: 25px;
-  margin-right: 3%;
+  margin-right: 8%;
 }
 
 nav a {
@@ -165,11 +164,15 @@ h3, h2 {
   margin: 0 0 40px;
   background: #ffffff;
   border: 1px solid #dddddd;
+  overflow: auto;
 }
 
 @media only screen and (max-width: 768px) {
   .main-section { 
     max-width: 748px;
+  }
+  #main-container{
+    padding-top: 20px;
   }
 }
 
@@ -219,6 +222,20 @@ h3, h2 {
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
+}
+
+/* @media only screen and (max-width: 768px) {
+  #logo { 
+    font-size: 60%;
+    font-weight: 500;
+  line-height: 70px;
+  }
+} */
+
+@media only screen and (max-width: 640px) {
+  .auth-image { 
+    width:99%;
+  }
 }
 
 /* contact page */
